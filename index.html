@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scroll</title>
+  <!-- font-awesome -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="intro">
+    <h3 class="logo-header">
+      <span class="logo">gesana</span>
+      <span class="logo">biti</span>
+    </h3>
+  </div>
+  <script src="https://threejs.org/build/three.js"></script>
+  <header id="home" class="header">
+    <!-- navbar -->
+    <nav id="nav">
+      <!--div class="nav-center"-->
+      <!-- links -->
+      <!-- nav header -->
+      <div class="links-container">
+        <div class="nav-header">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <ul class="links">
+          <li>
+            <a href="#projects" class="scroll-link">projects</a>
+          </li>
+          <li>
+            <a href="/about.html" target="_blank" class="scroll-link">abouttt</a>
+
+          </li>
+          <li>
+            <a href="#contact" class="scroll-link">contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="links-container">
+        <ul class="links">
+          <li>
+            <a href="#home" class="scroll-link">gesana biti</a>
+          </li>
+        </ul>
+      </div>
+
+      </div>
+
+    </nav>
+
+
+    <div class="banner">
+      <div class="container">
+        <h1>Hello</h1>
+        <p>
+          I am a creative Developer who enjoys animations, interactivity and generative design. Working as an architect and computational
+          designer tought me creativity in problem solving and user experience design, which I apply to deliver well-crafted
+          digital experiences.
+        </p>
+
+      </div>
+
+  </header>
+
+  <!-- projects -->
+  <section id="projects" class="section">
+    <div class="title">
+      <h2>Projects</h2>
+    </div>
+  </section>
+
+
+  <!-- contact -->
+  <section id="contact" class="section">
+    <div class="title">
+      <h2></h2>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="Footer">
+    <section class="Footer-container">
+      <div class="Title">
+        <p>Want to work with me?</p>
+        <div class="Footer-wrapButton">
+          <a href="mailto:gesanabiti@gmail.com" class="Button Footer-button"></a>
+          <button class="talk">Let's talk</button>
+        </div>
+
+        <nav class="Footer-social">
+          <ul class="Footer-socialList">
+            <li class="Footer-socialItem">
+              <a href="https://www.instagram.com/gesanabiti">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </section>
+
+
+
+
+    <p>
+      gesana biti &copy;
+      <span id="date"></span>
+    </p>
+  </footer>
+  <a class="scroll-link top-link" href="#home">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <!-- javascript -->
+  <script src="app.js"></script>
+  <script src="animation.js"></script>
+
+
+</body>
+
+</html>
